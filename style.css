@@ -1,4 +1,15 @@
 
+html, body {
+    overflow-x: hidden;
+  }
+
+body {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    font: 'Roboto';
+  }
+
 /* Header */
 
 .header {
@@ -61,18 +72,76 @@ nav {
     border-radius: 30px;
     padding: 10px 20px;
     margin-top: 25px;
+    width: 500px;
+    justify-content: space-between;
+    display: flex;
 }
 
 .search-bar input {
     background: transparent;
     border: 0;
     outline: none;
-    padding: 8px 140px;
+    padding: 8px 0px;
     font-size: 15px;
-    text-align: center;
+    text-align: left;
+    width: 430px;
 }
 
 .search-bar i {
     width: 25px;
+    height: 15px;
+}
+
+.search-bar button {
+    outline: none;
+    cursor: pointer;
+}
+
+.lucky-btn {
+    margin-top: 35px;
+    padding: 0 20px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.lucky-btn:hover {
+    background: rgb(253, 210, 210);
+    transition: .5s;
+}
+
+/* Footer */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    float: left;
+    word-spacing: 25px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.footer-right {
+    float: right;
+    word-spacing: 25px;
+    padding-right: 30px;
+    font-size: 15px;
 }
 
