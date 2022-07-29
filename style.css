@@ -199,3 +199,11 @@ nav {
         padding: 0;
     }
 }
+
+/* Author */
+
+.author {
+    font-size: 13px;
+    font: italic;
+    color: whitesmoke;
+}
