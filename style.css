@@ -110,11 +110,20 @@ nav {
 .search-bar i {
     width: 25px;
     height: 15px;
+    color: whitesmoke;
 }
 
 .search-bar button {
     outline: none;
     cursor: pointer;
+    background: rgb(56, 56, 56);
+    border-radius: 30px;
+    border: transparent;
+    width: 50px;
+}
+
+.search-bar button:hover {
+    background: rgb(250, 93, 93);
 }
 
 .lucky-btn {
